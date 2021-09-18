@@ -1,26 +1,5 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <liHelloWorld msg="Hello 傲夫靠斯" />
+  <li-button>点我-傲夫靠斯</li-button>
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue';
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld,
-  },
-};
-</script>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

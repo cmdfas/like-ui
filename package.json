@@ -1,14 +1,17 @@
 {
-  "name": "we-ui",
+  "name": "like-ui-1",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "lib/like-ui.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build:like-ui": "vue-cli-service build --target lib --dest lib src/components/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "like-ui": "^0.1.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {
